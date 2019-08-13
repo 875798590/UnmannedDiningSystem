@@ -14,12 +14,12 @@ A Unmanned Dining System for small restaurant.  一个为小微餐馆设计的�
 >这是作者第一个github练手项目
 >> this is the first project in my github
 
-- 架构
-    1. 前端：Angular
-    2. 后端：SpringBoot
+- 架构(framework)
+    1. 前端：[Angular](https://github.com/topics/angular)
+    2. 后端：[SpringBoot](https://github.com/topics/spring-boot)
     3. 其他中间件：MariaDB，RabbitMq，Redis
     
-- 模块
+- 模块(module)
     1. 基础数据模块
     2. 下单模块
     3. 接单制作模块
@@ -30,5 +30,9 @@ A Unmanned Dining System for small restaurant.  一个为小微餐馆设计的�
         * 优惠活动模块
         * 会员模块
         * 皮肤模块
+
+- 参考(reference)
+    * [akveo/ngx-admin](https://github.com/akveo/ngx-admin)
+    * [stylefeng/Guns](https://github.com/stylefeng/Guns)
 
 updated at 2019-08-13
