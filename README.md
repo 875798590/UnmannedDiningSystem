@@ -9,10 +9,21 @@
 [![issues](https://badgen.net/github/open-issues/NacedWang/UnmannedDiningSystem)](https://github.com/NacedWang/UnmannedDiningSystem/issues)
 [![PRs Welcome](https://badgen.net/badge/PRs/welcome/green)](http://makeapullrequest.com)
 
+---
+<a href="http://spring.io/projects/spring-boot">
+    <img src="https://img.shields.io/badge/spring--boot-2.1.1-green.svg" alt="spring-boot">
+</a>
+<a href="http://mp.baomidou.com">
+    <img src="https://img.shields.io/badge/mybatis--plus-3.0-blue.svg" alt="mybatis-plus">
+</a>  
+<a href="https://shiro.apache.org/">
+    <img src="https://img.shields.io/badge/shiro-1.4.0-blue.svg" alt="shiro">
+</a>
+
 A Unmanned Dining System for small restaurant.  一个为小微餐馆设计的具有点餐接单管理统计功能无人点餐系统。
 
 >这是作者第一个github练手项目
->> this is the first project in my github
+>> this is the first practice project in my github
 
 - 架构(framework)
     1. 前端：[Angular](https://github.com/topics/angular)
@@ -34,5 +45,6 @@ A Unmanned Dining System for small restaurant.  一个为小微餐馆设计的�
 - 参考(reference)
     * [akveo/ngx-admin](https://github.com/akveo/ngx-admin)
     * [stylefeng/Guns](https://github.com/stylefeng/Guns)
+    * [akveo/nebular](https://github.com/akveo/nebular)
 
 updated at 2019-08-13
