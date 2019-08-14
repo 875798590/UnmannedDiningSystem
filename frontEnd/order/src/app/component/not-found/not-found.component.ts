@@ -11,9 +11,7 @@ export class NotFoundComponent implements OnInit {
   constructor(private menuService: NbMenuService) {
   }
 
-  ngOnInit() {
-    console.log("404 not foundddddd");
-  }
+  ngOnInit() {}
 
   goToHome() {
     this.menuService.navigateHome();

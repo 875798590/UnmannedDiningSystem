@@ -4,13 +4,15 @@ import {NgModule} from '@angular/core';
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {NbChatModule, NbDatepickerModule, NbDialogModule, NbMenuModule, NbSidebarModule, NbToastrModule, NbWindowModule} from '@nebular/theme';
+import {NbLayoutModule, NbMenuModule, NbThemeModule} from '@nebular/theme';
 import {HttpClientModule} from "@angular/common/http";
 import {PagesModule} from "./pages/pages.module";
+import {NbAuthModule, NbPasswordAuthStrategy} from "@nebular/auth";
+import {NbEvaIconsModule} from "@nebular/eva-icons";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
@@ -18,17 +20,19 @@ import {PagesModule} from "./pages/pages.module";
     HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    NbSidebarModule.forRoot(),
-    NbMenuModule.forRoot(),
-    NbDatepickerModule.forRoot(),
-    NbDialogModule.forRoot(),
-    NbWindowModule.forRoot(),
-    NbToastrModule.forRoot(),
-    NbChatModule.forRoot({
-      messageGoogleMapKey: 'AIzaSyA_wNuCzia92MAmdLRzmqitRGvCF7wCZPY',
-    }),
 
-    PagesModule
+    PagesModule,
+    NbThemeModule.forRoot({name: 'default'}),
+    NbAuthModule.forRoot({
+      strategies: [
+        NbPasswordAuthStrategy.setup({
+          name: 'email'
+        }),
+      ]
+    }),
+    NbLayoutModule,
+    NbEvaIconsModule,
+    NbMenuModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
