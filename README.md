@@ -35,16 +35,17 @@ A Unmanned Dining System for small restaurant.  一个为小微餐馆设计的�
     2. 下单模块
     3. 接单制作模块
     4. 订单管理模块 
-    5. 基础报表模块
-    6. 增值服务模块
-        * 报表图标模块
-        * 优惠活动模块
-        * 会员模块
-        * 皮肤模块
+    5. 报表模块
+    6. 报表图标模块
+    7. 优惠活动模块
+    8. 会员模块
+    9. 皮肤模块
 
 - 参考(reference)
     * [akveo/ngx-admin](https://github.com/akveo/ngx-admin)
     * [stylefeng/Guns](https://github.com/stylefeng/Guns)
     * [akveo/nebular](https://github.com/akveo/nebular)
+    * [macrozheng/mall-admin-web](https://github.com/macrozheng/mall-admin-web)
+    * [macrozheng/mall](https://github.com/macrozheng/mall)
 
-updated at 2019-08-13
+updated at 2019-08-16
