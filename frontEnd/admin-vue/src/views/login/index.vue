@@ -95,9 +95,7 @@
       handleLogin() {
         this.$refs.loginForm.validate(valid => {
           if (valid) {
-            debugger
             let isSupport = getSupport();
-            debugger
             if(isSupport===undefined||isSupport==null){
               return;
             }
