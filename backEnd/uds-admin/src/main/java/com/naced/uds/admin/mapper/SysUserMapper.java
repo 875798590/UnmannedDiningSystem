@@ -16,8 +16,8 @@ public interface SysUserMapper {
 
     @Select("SELECT * FROM sys_user")
     @Results({
-        @Result(property = "id",  column = "user_id"),
-        @Result(property = "account",  column = "account"),
-    })
+        @Result(property = "id",
+            column = "user_id"), @Result(property = "account",
+        column = "account"),})
     List<SysUser> getAll();
 }

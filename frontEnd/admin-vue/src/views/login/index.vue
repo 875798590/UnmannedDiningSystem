@@ -9,7 +9,7 @@
         <div style="text-align: center">
           <svg-icon icon-class="login-mall" style="width: 56px;height: 56px;color: #409EFF"></svg-icon>
         </div>
-        <h2 class="login-title color-main">mall-admin-web</h2>
+        <h2 class="login-title color-main">UDS口泰管理系统</h2>
         <el-form-item prop="username">
           <el-input name="username"
                     type="text"
@@ -71,8 +71,8 @@
       };
       return {
         loginForm: {
-          username: 'admin',
-          password: '123456',
+          username: '',
+          password: '',
         },
         loginRules: {
           username: [{required: true, trigger: 'blur', validator: validateUsername}],
